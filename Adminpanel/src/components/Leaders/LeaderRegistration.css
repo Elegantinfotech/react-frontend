@@ -1,0 +1,111 @@
+.registration-form {
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 10px;
+  /* background-color: lightseagreen; */
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  max-width: 455px;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  outline: none;
+  /* border: none; */
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #edf5f3;
+  margin: 5px 0;
+  font-size: 14px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 94%;
+  padding: 10px;
+  background-color: #0b300d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: green;
+}
+span {
+  color: red;
+}
+.export_btn {
+  color: lightseagreen;
+  /* margin: 10px; */
+  width: 1rem;
+  /* float:left; */
+}
+.pagination-tab {
+  /* float: left; */
+  display: inline-flex;
+  padding: 20px;
+}
+.form-container {
+  width: 300px;
+  overflow-y: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent line breaks for inline elements */
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+}
+.logo-image {
+  margin-top: 1.5rem !important;
+  width: 14%;
+  float: left;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.table-container {
+  max-width: 58rem;
+  height: 30rem;
+  overflow-y: scroll;
+  /* margin: 2%; */
+}
+.page-item {
+  background-color: #897b7b;
+  color: black;
+}
+.div-flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.div-flex-row {
+  display: flex;
+  flex-direction: row;
+  margin-right:20px;
+  justify-content:inherit
+}
+.div-pagination{
+  float:right;
+}
+#modalSubmit,#cancel{
+  width: 30%;
+}
+.your-table-class th.fixed-width {
+  width: 200px !important;
+}
+.btn-close{
+  background-color: red !important;
+}

@@ -1,0 +1,37 @@
+.menu-container{
+  width:98%;
+  margin:2px;
+  height:auto;
+  background-color: blue;
+}
+/* .admin-navbar{
+ 
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+} */
+.nav-tab{
+  background-color:#339133 ;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s,color 0.3s;
+}
+.nav-tab:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+@media (max-width:768px){
+  .admin-navbar{
+    flex-direction: column;
+  }
+  .nav-tab{
+    margin:5px;
+    width:100%;
+  }
+  
+}
