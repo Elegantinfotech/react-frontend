@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./leaderRegistration.css";
+import "../Leaders/LeaderRegistration.css";
 import AdminNavbar from "../AdminNavbar";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";

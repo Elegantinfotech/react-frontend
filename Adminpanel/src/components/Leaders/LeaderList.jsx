@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Table, Pagination, Button, Modal, Form } from "react-bootstrap";
 import EditLeader from "./EditLeaderModal";
 import AddLeaderModal from "./AddLeaderModal";
-import "./LeaderRegistration.css";
+import "../Leaders/LeaderRegistration.css";
 import { CSVLink } from "react-csv";
 import { useNavigate } from "react-router-dom";
 import moment from "moment";
