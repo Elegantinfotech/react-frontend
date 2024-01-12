@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Button, Modal, Form } from "react-bootstrap";
 import moment from "moment";
-import "./LeaderRegistration.css"; 
+import "../Leaders/LeaderRegistration.css";
 import { toast } from "react-toastify";
 const EditLeader = ({ showModal, handleClose, leader }) => {
   const [editedLeader, setEditedLeader] = useState({ ...leader });

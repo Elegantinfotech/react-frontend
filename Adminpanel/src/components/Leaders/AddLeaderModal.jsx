@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Button, Modal, Form } from "react-bootstrap";
 import moment from "moment";
-import "./LeaderRegistration.css";
+import "../Leaders/LeaderRegistration.css";
 import { toast } from "react-toastify";
 const AddLeaderModal = ({ showModal, handleClose,fetchList }) => {
   const [formData, setFormData] = useState({});
